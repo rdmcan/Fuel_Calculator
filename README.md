@@ -14,8 +14,6 @@ First of all, we want to know the costs that would have to be assumed when acqui
 
 1 gal=3.79 l
 
-Note: Despite not being the exact conversion between gallons and liters, this exercise must be performed with the value given in this statement or else it could produce an incorrect answer.
-
 At this first point, the function calculate_gasoline_cost must be implemented which, given the price of 1 gallon of gasoline and a total number num_liters of liters to fill, returns the total cost of buying that amount of gasoline.
 
 Vehicle consumption 🚘
@@ -31,7 +29,5 @@ Finally, we want to take advantage of the code created in the previous points to
 Calculate how many liters we must fill to reach our destination.
 Determine how much it costs to pay that amount of liters.
 Report in an appropriate format the answer.
-In addition, since we want to simplify things, we are going to define a default consumption that corresponds to our usual vehicle, but that can also be passed as an argument to the function with different consumptions.
 
-You must implement the reportar_gasto_viaje function that, given the distance to travel (distance), the price of 1 gallon of gasoline (price_gallon) and optionally the consumption of the vehicle to be used given in liters per 100 km (consumption), returns the money total spent on gasoline for the indicated trip.
-
+the reportar_gasto_viaje function that, given the distance to travel (distance), the price of 1 gallon of gasoline (price_gallon) and optionally the consumption of the vehicle to be used given in liters per 100 km (consumption), returns the money total spent on gasoline for the indicated trip.
